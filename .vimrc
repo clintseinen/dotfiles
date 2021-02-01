@@ -1,16 +1,9 @@
-" VUNDLE
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-Plugin 'VundleVim/Vundle.vim'
-Plugin 'vimwiki/vimwiki'
-Plugin 'lifepillar/vim-solarized8'
-call vundle#end()
-filetype plugin indent on
-" NON-VUNDLE
-
 set nocompatible
 filetype plugin on
 syntax enable 
+
+" to fix for a strange highlighting problem?
+set redrawtime=10000 
 
 set autoindent
 set number
